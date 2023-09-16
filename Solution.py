@@ -1,8 +1,10 @@
 def hello():
     print("Hello, user!")
 
+
 def pack(a, b, c):
     return [a, b, c]
+
 
 def eat_lunch(my_lst):
     if len(my_lst) == 0:
@@ -13,6 +15,7 @@ def eat_lunch(my_lst):
                 print(f"First I eat {my_lst[0]}")
             else:
                 print(f"Next I eat {my_lst[i]}")
+
 
 hello()
 result = pack("a", "b", "c")
